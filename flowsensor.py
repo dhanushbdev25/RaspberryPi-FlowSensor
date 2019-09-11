@@ -31,9 +31,4 @@ try:
 except KeyboardInterrupt:
         print('\ncaught keyboard interrupt!, bye')
 
-
-firebase= firebase.FirebaseApplication('https://infinity-fe913.firebaseio.com')
-result = firebase.post('https://infinity-fe913.firebaseio.com/Flow',{'flow':str$
-print(result)
-
 GPIO.cleanup()
